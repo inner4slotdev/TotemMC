@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/soon')
 def soon():
-    return render_template('soon.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
